@@ -55,8 +55,9 @@
     "@babel/polyfill": "7.12.1",
     "@popperjs/core": "2.11.2",
     "bootstrap": "5.1.3",
+    "bootstrap-icons": "^1.8.1",
     "chart.js": "2.9.4",
-    "feather-icons": "4.28.0",
+    "choices.js": "^10.1.0",
     "flatpickr": "4.6.9",
     "jsvectormap": "1.3.3",
     "simplebar": "5.3.6"

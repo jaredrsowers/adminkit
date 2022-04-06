@@ -60,6 +60,16 @@ module.exports = {
         }
       }
     }),
+    // Copy dist folder to wwwroot
+    new FileManagerPlugin({
+      events: {
+        onEnd: {
+          copy: [
+            { source: "./dist/", destination: "../../src/Paycheck2Paycheck.App/wwwroot" }
+          ]
+        }
+      }
+    }),
   ],
   module: {
     rules: [

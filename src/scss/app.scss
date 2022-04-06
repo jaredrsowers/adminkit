@@ -34,6 +34,12 @@
 @import "~bootstrap/scss/helpers";
 @import "~bootstrap/scss/utilities/api";
 
+// Bootstrap Icons
+@import 'bootstrap-icons/font/bootstrap-icons.css';
+
+@import "1-variables/choices";
+
+
 // Theme mixins
 @import "2-mixins/button";
 
@@ -44,7 +50,7 @@
 @import "3-components/chart";
 @import "3-components/content";
 @import "3-components/dropdown";
-@import "3-components/feather";
+// @import "3-components/feather";
 @import "3-components/footer";
 @import "3-components/hamburger";
 @import "3-components/list-group";
@@ -65,7 +71,17 @@
 @import "~jsvectormap/dist/css/jsvectormap";
 @import "~simplebar/dist/simplebar";
 @import "~flatpickr/dist/flatpickr";
+@import "~choices.js/src/styles/choices";
+
+
 
 // 3rd party plugin styles
 @import "5-vendor/flatpickr";
 @import "5-vendor/simplebar";
+@import "5-vendor/choices";
+
+
+
+@import "6-app/font";
+@import "6-app/blazor";
+@import "6-app/validation";

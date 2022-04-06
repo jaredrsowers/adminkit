@@ -1,0 +1,53 @@
+
+
+
+// .was-validated :invalid ~ .invalid-feedback,
+// .was-validated :invalid ~ .invalid-tooltip,
+// .invalid ~ .invalid-feedback,
+// .invalid ~ .invalid-tooltip {
+//   display: block;
+// }
+
+// .was-validated .form-control:invalid, .form-control.invalid {
+//   border-color: $danger;
+// }
+// .was-validated .form-control:invalid:focus, .form-control.invalid:focus {
+//   border-color: $danger;
+//   box-shadow: 0 0 0 0.2rem rgba($danger, 0.25);
+// }
+
+// .was-validated .form-select:invalid, .form-select.invalid {
+//   border-color: $danger;
+// }
+// .was-validated .form-select:invalid:focus, .form-select.invalid:focus {
+//   border-color: $danger;
+//   box-shadow: 0 0 0 0.2rem rgba($danger, 0.25);
+// }
+
+// .was-validated .form-check-input:invalid, .form-check-input.invalid {
+//   border-color: $danger;
+// }
+// .was-validated .form-check-input:invalid:checked, .form-check-input.invalid:checked {
+//   background-color: $danger;
+// }
+// .was-validated .form-check-input:invalid:focus, .form-check-input.invalid:focus {
+//   box-shadow: 0 0 0 0.2rem rgba($danger, 0.25);
+// }
+// .was-validated .form-check-input:invalid ~ .form-check-label, .form-check-input.invalid ~ .form-check-label {
+//   color: $danger;
+// }
+
+// .form-check-inline .form-check-input ~ .invalid-feedback {
+//   margin-left: 0.5em;
+// }
+
+// .was-validated .input-group .form-control:invalid, .input-group .form-control.invalid,
+// .was-validated .input-group .form-select:invalid,
+// .input-group .form-select.invalid {
+//   z-index: 2;
+// }
+// .was-validated .input-group .form-control:invalid:focus, .input-group .form-control.invalid:focus,
+// .was-validated .input-group .form-select:invalid:focus,
+// .input-group .form-select.invalid:focus {
+//   z-index: 3;
+// }
